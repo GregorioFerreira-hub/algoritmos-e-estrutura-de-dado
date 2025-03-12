@@ -24,11 +24,7 @@ programa
 		parteInteira=mat.arredondar(numero,0)
 		parteFraccionaria=mat.arredondar(mat.valor_absoluto(numero-numeroArredondado)*100,0)
 		
-		se(parteFraccionaria>=50){
-		escreva("\nb)A parte inteira desse número: ",parteInteira-1)
-		}senao{
 		escreva("\nb)A parte inteira desse número: ",parteInteira)
-		}
 		escreva("\nb)A parte fracionária desse número: ",parteFraccionaria)
 		escreva("\nc)O arredondamento desse número: ",numeroArredondado)
 		
@@ -39,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 364; 
+ * @POSICAO-CURSOR = 672; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
