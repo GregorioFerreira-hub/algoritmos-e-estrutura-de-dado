@@ -16,9 +16,9 @@ programa
 		real numero
 
 		
-
+		escreva("Insira um número positivo e maior que zero: ")
 		faca{
-			escreva("\nInsira um número positivo e maior que zero: ")
+			
 			leia(numero)
 			limpa()
 			se(numero>0){
@@ -28,7 +28,7 @@ programa
 				escreva("\nc) a raiz quadrada de ",numero," é ",mat.raiz(numero,2.0))
 				escreva("\nd) a raiz cúbica de ",numero," é ",mat.raiz(numero,3.0))
 			}senao{
-				escreva("Introduzido um número maior que zero\n")
+				escreva("Insira um número positivo e maior que zero: \n")
 			}
 		}enquanto(numero<=0)
 		
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 422; 
+ * @POSICAO-CURSOR = 793; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
