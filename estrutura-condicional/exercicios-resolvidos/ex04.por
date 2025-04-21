@@ -30,7 +30,7 @@ programa
 			b=c
 			c=aux
 		}
-		escreva("Números em ordem crescente: ",a," ",b," ",c,"\n")
+		escreva("3 Números em ordem Crescente: ",a," ",b," ",c,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 327; 
+ * @POSICAO-CURSOR = 349; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

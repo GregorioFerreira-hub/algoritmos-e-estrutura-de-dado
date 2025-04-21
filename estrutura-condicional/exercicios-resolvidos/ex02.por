@@ -17,6 +17,7 @@ programa
 
 		mediaAritmetica=(trabLab+avalSemestral+examFinal)/3.0
 		escreva("Média Aritmética: ",mediaAritmetica," Valores\tMensagem: ")
+		
 		se(mediaAritmetica<3.0){
 			escreva("Reprovado")
 		}senao se(mediaAritmetica<7.0){
@@ -34,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 623; 
+ * @POSICAO-CURSOR = 432; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

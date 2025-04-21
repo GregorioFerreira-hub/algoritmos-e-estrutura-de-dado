@@ -46,7 +46,7 @@ programa
 			c=d
 			d=aux
 		}
-	escreva("Números Inseridos: ",a,"-",b,"-",c,"-",d,"\n")
+	escreva("4 Números em ordem Decrescente: ",a,"-",b,"-",c,"-",d,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 542; 
+ * @POSICAO-CURSOR = 498; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
