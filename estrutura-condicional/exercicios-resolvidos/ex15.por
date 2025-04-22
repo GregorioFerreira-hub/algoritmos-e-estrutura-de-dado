@@ -5,7 +5,7 @@ programa
 	{
 		real salMinimo,salAReceber,valorDaHoraTrabalhada
 		real salMensal,valorPagoPorDependentes,valorPagoPorHorasExtras
-		real salBruto,irrf
+		real salBruto,irrf,salLiquido,gratificacao
 		inteiro numHorasTrab,numDeDependentes,qtdHorasExtras
 
 		escreva("Salário Mínimo: ")
@@ -33,7 +33,29 @@ programa
 		}senao{
 			irrf=salBruto*0.20
 		}
-		
+
+		salLiquido=salBruto-irrf
+		se(salLiquido<=350.00){
+			gratificacao=100.00
+		}senao{
+			gratificacao=50.00
+		}
+
+		salAReceber=salLiquido+gratificacao
+
+		escreva("\nSalário Mínimo: R$ ",salMinimo)
+		escreva("\nNúmero De Horas Trabalhadas: ",numHorasTrab)
+		escreva("\nNúmero De Dependendentes: ",numDeDependentes)
+		escreva("\nNúmero De Horas Extras: ",qtdHorasExtras)
+		escreva("\nValor da Hora Trabalhada:R$ ",valorDaHoraTrabalhada)
+		escreva("\nSalário Mensal:R$ ",salMensal)
+		escreva("\nValor Pago Pelos Dependentes:R$ ",valorPagoPorDependentes)
+		escreva("\nValor Pago Pelas Horas Extras:R$ ",valorPagoPorHorasExtras)
+		escreva("\nSalário Bruto:R$ ",salBruto)
+		escreva("\nIRRF:R$ ",irrf)
+		escreva("\nSalário Líquido:R$ ",salLiquido)
+		escreva("\nGratificação:R$ ",gratificacao)
+		escreva("\nSalário A Receber:R$ ",salAReceber)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -41,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 922; 
+ * @POSICAO-CURSOR = 1786; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
