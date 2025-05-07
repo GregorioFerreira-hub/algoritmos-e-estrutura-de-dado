@@ -11,7 +11,7 @@ programa
 			escreva("\nTipo do Produto:\nA-Alimentação\nL-Limpeza\nV-Vestuário\n ")
 			leia(tipo)
 			se(tipo=='A' ou tipo=='L' ou tipo=='V'){
-				escreva("\nRefrigeração do Produto:\nS-Produto que necessita de refrigeração\nN-Produto que não necessita de refrigeração")
+				escreva("\nRefrigeração do Produto:\nS-Produto que necessita de refrigeração\nN-Produto que não necessita de refrigeração:\n")
 				leia(refrigeracao)
 			se(refrigeracao=='S' ou refrigeracao=='N'){
 				escolha(refrigeracao){
@@ -107,7 +107,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1535; 
+ * @POSICAO-CURSOR = 458; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
