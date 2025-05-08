@@ -9,9 +9,9 @@ programa
 		escreva("N inteiro e positivo: ")
 		leia(N)
 		limpa()
-		escreva("E = ")
+		
 		se(N>0){
-			
+			escreva("E = ")
 			para(i=0;i<=N;i++){
 				se(i==0){
 					escreva("1 + ")
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 53; 
+ * @POSICAO-CURSOR = 155; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

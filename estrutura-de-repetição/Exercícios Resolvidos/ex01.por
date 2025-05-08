@@ -26,7 +26,13 @@ programa
 		escreva("\nAumento: ",aumento)
 		escreva("\nAno ",ano,": \tSalario Atual: ",salarioAtual)
 		}senao{
-			escreva("\nO trabalhador foi contratado em 2005\nOs aumento começaram em 2006")
+			se(ano==2005)
+			{
+				escreva("\nAno 2005: \tSalario: ",salario)
+			}senao{
+				escreva("\nO trabalhador foi contratado em 2005\nOs aumento começaram em 2006")
+			}
+			
 		}
 		
 	}
@@ -36,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 545; 
+ * @POSICAO-CURSOR = 660; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
