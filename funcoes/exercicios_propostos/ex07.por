@@ -1,10 +1,5 @@
 programa
 {
-	/*
-	Elabore uma sub-rotina que leia um número não determinado de
-	valores positivos e retorne a média aritmética desses
-	valores. Terminar a entrada de dados com o valor zero.
-	*/
 	inteiro i=1,qtdDeNum=0
 	real n,soma=0.0
 	
@@ -42,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 611; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
